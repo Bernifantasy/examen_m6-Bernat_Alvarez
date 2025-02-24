@@ -3,7 +3,7 @@
 <head>
     
     <meta charset="utf-8">
-    <title>gameObject - Documentation</title>
+    <title>Aigua - Documentation</title>
     
     
     <script src="scripts/prettify/prettify.js"></script>
@@ -29,13 +29,13 @@
 <nav >
     
     
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Circle.html">Circle</a><ul class='methods'><li data-type='method'><a href="Circle.html#calculateCircumference">calculateCircumference</a></li><li data-type='method'><a href="Circle.html#getCircumference">getCircumference</a></li><li data-type='method'><a href="Circle.html#toString">toString</a></li><li data-type='method'><a href="Circle.html#.fromDiameter">fromDiameter</a></li></ul></li><li><a href="Food.html">Food</a><ul class='methods'><li data-type='method'><a href="Food.html#showObject">showObject</a></li></ul></li><li><a href="Pacman.html">Pacman</a><ul class='methods'><li data-type='method'><a href="Pacman.html#moveDown">moveDown</a></li><li data-type='method'><a href="Pacman.html#moveLeft">moveLeft</a></li><li data-type='method'><a href="Pacman.html#moveRight">moveRight</a></li><li data-type='method'><a href="Pacman.html#moveUp">moveUp</a></li><li data-type='method'><a href="Pacman.html#showObject">showObject</a></li><li data-type='method'><a href="Pacman.html#spawnPacman">spawnPacman</a></li><li data-type='method'><a href="Pacman.html#testCollideFood">testCollideFood</a></li><li data-type='method'><a href="Pacman.html#testCollideRock">testCollideRock</a></li></ul></li><li><a href="gameObject.html">gameObject</a><ul class='methods'><li data-type='method'><a href="gameObject.html#showObject">showObject</a></li></ul></li></ul><h3>Global</h3><ul><li><a href="global.html#printCircle">printCircle</a></li></ul>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Aigua.html">Aigua</a><ul class='methods'><li data-type='method'><a href="Aigua.html#showObject">showObject</a></li></ul></li><li><a href="Aigua_gameObject.html">gameObject</a></li><li><a href="Ajo.html">Ajo</a><ul class='methods'><li data-type='method'><a href="Ajo.html#showObject">showObject</a></li></ul></li><li><a href="Ajo_gameObject.html">gameObject</a></li><li><a href="Circle.html">Circle</a><ul class='methods'><li data-type='method'><a href="Circle.html#calculateCircumference">calculateCircumference</a></li><li data-type='method'><a href="Circle.html#getCircumference">getCircumference</a></li><li data-type='method'><a href="Circle.html#toString">toString</a></li><li data-type='method'><a href="Circle.html#.fromDiameter">fromDiameter</a></li></ul></li><li><a href="Dracula.html">Dracula</a><ul class='methods'><li data-type='method'><a href="Dracula.html#showObject">showObject</a></li></ul></li><li><a href="Dracula_gameObject.html">gameObject</a></li><li><a href="Roca.html">Roca</a><ul class='methods'><li data-type='method'><a href="Roca.html#showObject">showObject</a></li></ul></li><li><a href="Roca_gameObject.html">gameObject</a></li><li><a href="Zombie.html">Zombie</a><ul class='methods'><li data-type='method'><a href="Zombie.html#showObject">showObject</a></li></ul></li><li><a href="Zombie_gameObject.html">gameObject</a></li><li><a href="gameObject_gameObject.html">gameObject</a></li></ul><h3>Global</h3><ul><li><a href="global.html#printCircle">printCircle</a></li></ul>
     
 </nav>
 
 <div id="main">
     
-    <h1 class="page-title">gameObject</h1>
+    <h1 class="page-title">Aigua</h1>
     
 
     
@@ -49,12 +49,12 @@
     
         <h2>
         
-            gameObject
+            Aigua
         
         </h2>
         
-            <div class="class-description usertext"><p>Clase base para todos los objetos del juego.
-Define la posición en la cuadrícula y en píxeles.</p></div>
+            <div class="class-description usertext"><p>Clase que representa el menjar al joc.
+Extiende <code>gameObject</code> y define el valor en puntos de la comida.</p></div>
         
     
 </header>
@@ -69,7 +69,7 @@ Define la posición en la cuadrícula y en píxeles.</p></div>
     <h2>Constructor</h2>
     
 
-    <h4 class="name" id="gameObject"><span class="type-signature"></span>new gameObject<span class="signature">(row, col)</span><span class="type-signature"></span></h4>
+    <h4 class="name" id="Aigua"><span class="type-signature"></span>new Aigua<span class="signature">(row, column)</span><span class="type-signature"></span></h4>
 
     
 
@@ -79,13 +79,13 @@ Define la posición en la cuadrícula y en píxeles.</p></div>
 <dl class="details">
     
     <dt class="tag-description">Description:</dt>
-    <dd class="tag-description"><ul class="dummy"><li><p>Crea una instancia de gameObject.</p></li></ul></dd>
+    <dd class="tag-description"><ul class="dummy"><li><p>Crea una instancia de Aigua.</p></li></ul></dd>
     
 
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="gameObject.js.html">gameObject.js</a>, <a href="gameObject.js.html#line10">line 10</a>
+        <a href="Aigua.js.html">Aigua.js</a>, <a href="Aigua.js.html#line11">line 11</a>
     </li></ul></dd>
     
 
@@ -181,14 +181,14 @@ Define la posición en la cuadrícula y en píxeles.</p></div>
 
             
 
-            <td class="description last"><p>Número de fila en la cuadrícula.</p></td>
+            <td class="description last"><p>La fila donde se coloca la comida en la cuadrícula.</p></td>
         </tr>
 
     
 
         <tr>
             
-                <td class="name"><code>col</code></td>
+                <td class="name"><code>column</code></td>
             
 
             <td class="type">
@@ -205,7 +205,7 @@ Define la posición en la cuadrícula y en píxeles.</p></div>
 
             
 
-            <td class="description last"><p>Número de columna en la cuadrícula.</p></td>
+            <td class="description last"><p>La columna donde se coloca la comida en la cuadrícula.</p></td>
         </tr>
 
     
@@ -235,6 +235,17 @@ Define la posición en la cuadrícula y en píxeles.</p></div>
     
 
     
+        <h3 class="subsection-title">Extends</h3>
+
+        
+
+
+    <ul>
+        <li><a href="gameObject.html">gameObject</a></li>
+    </ul>
+
+
+    
 
     
 
@@ -242,7 +253,10 @@ Define la posición en la cuadrícula y en píxeles.</p></div>
         <h3 class="subsection-title">Classes</h3>
 
         <dl>
-            <dt><a href="gameObject.html">gameObject</a></dt>
+            <dt><a href="Aigua.html">Aigua</a></dt>
+            <dd></dd>
+        
+            <dt><a href="Aigua_gameObject.html">gameObject</a></dt>
             <dd></dd>
         </dl>
     
@@ -279,7 +293,7 @@ Define la posición en la cuadrícula y en píxeles.</p></div>
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="gameObject.js.html">gameObject.js</a>, <a href="gameObject.js.html#line33">line 33</a>
+        <a href="gameObject.js.html">gameObject.js</a>, <a href="gameObject.js.html#line34">line 34</a>
     </li></ul></dd>
     
 
@@ -289,6 +303,11 @@ Define la posición en la cuadrícula y en píxeles.</p></div>
 
     
 
+    
+    <dt class="tag-overrides">Overrides:</dt>
+    <dd class="tag-overrides"><ul class="dummy"><li>
+        <a href="gameObject.html#showObject">gameObject#showObject</a>
+    </li></ul></dd>
     
 
     
@@ -413,7 +432,7 @@ Define la posición en la cuadrícula y en píxeles.</p></div>
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.4</a> on Mon Feb 17 2025 15:57:34 GMT+0100 (hora estándar de Europa central) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.4</a> on Mon Feb 24 2025 18:34:49 GMT+0100 (hora estándar de Europa central) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
 </footer>
 
 <script>prettyPrint();</script>
