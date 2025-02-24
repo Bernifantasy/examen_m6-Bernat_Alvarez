@@ -1,4 +1,4 @@
-export class ErrorBob extends Error {
+export class ErrorSimon extends Error {
   constructor(code,message) {
     super(message);
     this.code = code;

@@ -8,15 +8,14 @@ import {gameObject} from "./gameObject.js";
  * @author moi
  */
 
-export class Burger extends gameObject{
+export class Zombie extends gameObject{
   /**
-   * Crea una instancia de Burger.
+   * Crea una instancia de Zombie.
    *
    * @param {number} row - La fila donde se coloca la comida en la cuadrícula.
    * @param {number} column - La columna donde se coloca la comida en la cuadrícula.
    */
   constructor(row,column) {
     super(row,column);
-    this.pointsfood = 10;
   }
 }
