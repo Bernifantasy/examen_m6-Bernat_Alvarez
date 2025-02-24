@@ -38,8 +38,8 @@ function preload() {
   imgRock = loadImage("../img/roca.png", handleImage, handleError);
   imgAjo = loadImage("../img/all.png", handleImage, handleError);
   imgSimonUp = loadImage("../img/simonUp.png", handleImage, handleError);
-  imgSimonLEFT = loadImage("../img/simonLEFT.png", handleImage, handleError);
-  imgSimonRIGHT = loadImage("../img/simonRIGHT.png", handleImage, handleError);
+  imgSimonLEFT = loadImage("../img/simonLeft.png", handleImage, handleError);
+  imgSimonRIGHT = loadImage("../img/simonRight.png", handleImage, handleError);
   imgSimonDown = loadImage("../img/simonDown.png", handleImage, handleError);
   imgzombie = loadImage("../img/zombie.png", handleImage, handleError);
   imgdracula = loadImage("../img/dracula.png", handleImage, handleError);
